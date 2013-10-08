@@ -21,16 +21,18 @@ mkdir test
 cd test
 git init 
 touch readme
-git add readme
-git commit
+
+git add .
+git commit -m 'Modified '
+git push -u origin master
+
 ### git push https error
 # vim .git/config
-# url = https://github.com/spatialx/test.git  -->
-# url = https://spatialx@github.com/spatialx/test.git
-git push -u origin master
+# url = https://github.com/username/test.git  -->
+# url = https://username@github.com/username/test.git
 ```
 
 # clone
 --------
-git clone https://github.com/spatialx/test.git
+git clone https://github.com/username/test.git
 
