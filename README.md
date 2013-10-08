@@ -16,18 +16,19 @@ The goals include:
 # Memo
 -------
 .. code-block:: bash
-
+```bash
 mkdir test
 cd test
 git init 
 touch readme
 git add readme
 git commit
-# git push https error
+### git push https error
 # vim .git/config
 # url = https://github.com/spatialx/test.git  -->
 # url = https://spatialx@github.com/spatialx/test.git
 git push -u origin master
+```
 
 # clone
 --------
