@@ -34,5 +34,7 @@ git push -u origin master
 
 # clone
 --------
+```
 git clone https://github.com/username/test.git
+```
 
